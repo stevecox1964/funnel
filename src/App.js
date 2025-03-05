@@ -16,9 +16,8 @@ function App() {
         <div className="hero-section">
           <div className="hero-content">
             <h1>Transforming Ideas Into Digital Reality</h1>
-            <p>Professional web and mobile development services tailored to your business needs</p>
+            <p>Professional AI automation / web and mobile development services tailored to your business needs</p>
             <div className="cta-buttons">
-              <a href="#contact-form" className="primary-btn">Get Started</a>
               <a href="#services" className="secondary-btn">Learn More</a>
             </div>
           </div>
@@ -26,8 +25,23 @@ function App() {
       </header>
 
       <section id="services" className="services-section">
-        <h2>Our Services</h2>
+        <h2>My Services</h2>
         <div className="services-grid">
+        <div className="service-card">
+          <div className="service-icon">🤖</div>
+            <h3>AI Automation</h3>
+            <p>Automate tasks and processes using AI technologies. </p>
+          </div>
+          <div className="service-card">
+          <div className="service-icon">🌐</div>
+            <h3>Web scrapping</h3>
+            <p>Scrape public data and information that can be used to streamline your business operations.</p>
+          </div>
+          <div className="service-card">
+          <div className="service-icon">📞</div>
+            <h3>Virtual Assistants</h3>
+            <p>Autonomously takes calls for your company.</p>
+          </div>
           <div className="service-card">
             <div className="service-icon">💻</div>
             <h3>Web Development</h3>
@@ -37,26 +51,17 @@ function App() {
             <div className="service-icon">📱</div>
             <h3>Mobile Development</h3>
             <p>Native and cross-platform mobile apps for iOS and Android.</p>
-          </div>
-          <div className="service-card">
-            <div className="service-icon">🔍</div>
-            <h3>UI/UX Design</h3>
-            <p>User-centered design that enhances user experience and engagement.</p>
-          </div>
-          <div className="service-card">
-            <div className="service-icon">🚀</div>
-            <h3>Performance Optimization</h3>
-            <p>Speed up your existing applications for better user experience.</p>
-          </div>
+          </div>          
         </div>
       </section>
 
       <section id="about" className="about-section">
-        <h2>About Us</h2>
+        <h2>About Me</h2>
         <div className="about-content">
           <div className="about-text">
-            <p>We are a team of passionate developers dedicated to creating exceptional digital experiences. With expertise in the latest technologies and frameworks, we deliver solutions that help businesses grow and succeed in the digital landscape.</p>
-            <p>Our approach combines technical excellence with creative problem-solving to build applications that are not only functional but also intuitive and engaging for users.</p>
+            <p>I am a software developer / software engineer with over 25 years of experience building software for companies like</p>  
+            <p>Lumeris, HP, ExxonMobile, and others.</p>
+            <p>With expertise in the latest technologies and frameworks, I deliver solutions that help businesses grow and succeed in the digital landscape.</p>
           </div>
         </div>
       </section>
@@ -67,41 +72,17 @@ function App() {
           <div className="contact-info-card">
             <div className="contact-info-icon">✉️</div>
             <h3>Email</h3>
-            <p>contact@devexpert.com</p>
-          </div>
-          <div className="contact-info-card">
-            <div className="contact-info-icon">📞</div>
-            <h3>Phone</h3>
-            <p>+1 (555) 123-4567</p>
+            <p>stevecoxiscool@gmail.com</p>
           </div>
           <div className="contact-info-card">
             <div className="contact-info-icon">📍</div>
             <h3>Address</h3>
-            <p>123 Tech Street, Innovation City</p>
+            <p>123 Tech Street, Conroe , Texas</p>
           </div>
         </div>
       </section>
 
-      <section id="contact-form" className="contact-section">
-        <h2>Get In Touch</h2>
-        <div className="contact-container">
-          <form className="contact-form">
-            <div className="form-group">
-              <label htmlFor="name">Name</label>
-              <input type="text" id="name" placeholder="Your Name" />
-            </div>
-            <div className="form-group">
-              <label htmlFor="email">Email</label>
-              <input type="email" id="email" placeholder="Your Email" />
-            </div>
-            <div className="form-group">
-              <label htmlFor="message">Message</label>
-              <textarea id="message" placeholder="Tell us about your project"></textarea>
-            </div>
-            <button type="submit" className="submit-btn">Send Message</button>
-          </form>
-        </div>
-      </section>
+      
 
       <footer className="footer">
         <div className="footer-content">
@@ -112,9 +93,8 @@ function App() {
             <a href="#contact-info">Contact</a>
           </div>
           <div className="social-links">
-            <a href="#" className="social-icon">LinkedIn</a>
-            <a href="#" className="social-icon">Twitter</a>
-            <a href="#" className="social-icon">GitHub</a>
+            <a href="https://www.linkedin.com/in/steve-cox-229886b/" className="social-icon">LinkedIn</a>
+            <a href="https://github.com/stevecox1964" className="social-icon">GitHub</a>
           </div>
         </div>
         <div className="copyright">
